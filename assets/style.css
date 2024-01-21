@@ -15,3 +15,80 @@ body {
 	width: 100%; 
 	background-color: #3c3939; 
 } 
+
+.logo { 
+	padding: 0 5rem; 
+} 
+
+.logo .logo-heading { 
+	color: #fff; 
+} 
+
+.menu { 
+	padding: 0 5rem; 
+} 
+
+.hamburger { 
+	display: none; 
+	color: #fff; 
+	font-size: 25px; 
+} 
+
+.cross-icon { 
+	display: none; 
+} 
+
+.menu .menu-list { 
+	display: flex; 
+	list-style: none; 
+} 
+
+.menu-list .menu-list-items { 
+	padding: 0.5rem 1rem; 
+} 
+
+@media screen and (min-width: 856px) and (max-width: 1024px) { 
+	.menu-list .menu-list-items { 
+		padding: 0.5rem 0.3rem; 
+	} 
+} 
+
+
+.main-page .intro { 
+	text-align: center; 
+	margin: auto;
+	
+} 
+
+.main-page .intro-buttons { 
+	margin: 2rem 0; 
+	display: flex; 
+	align-items: center; 
+	justify-content: space-evenly; 
+} 
+.portfolio { 
+	margin: 4.8rem 0; 
+	padding: 0 5rem; 
+} 
+
+.port-card { 
+	padding: 0 !important; 
+	background: none !important; 
+	border: 2px solid #000;
+	width:500px; 
+} 
+
+.port-card .image { 
+	width: 100%; 
+} 
+
+.port-card .image img { 
+	height: 200px; 
+	width: 100%; 
+	border-top-right-radius: 20px; 
+	border-top-left-radius: 20px; 
+	transition: transform 0.3s ease-in-out;
+} 
+.port-card .image img:hover {
+    transform: scale(1.1);
+}
